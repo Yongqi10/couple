@@ -106,6 +106,8 @@ public class MessageFragment extends Fragment {
                 }
                 Log.i(TAG,"message send was successful");
                 etMessage.setText("");
+                getMessage();
+
             }
         });
 
